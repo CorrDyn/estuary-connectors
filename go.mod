@@ -7,6 +7,7 @@ require (
 	cloud.google.com/go/bigquery v1.71.0
 	cloud.google.com/go/firestore v1.18.0
 	cloud.google.com/go/pubsub v1.50.1
+	cloud.google.com/go/spanner v1.86.1
 	cloud.google.com/go/storage v1.57.0
 	firebase.google.com/go v3.13.0+incompatible
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.19.1
@@ -44,6 +45,7 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang-jwt/jwt/v5 v5.3.0
 	github.com/google/uuid v1.6.0
+	github.com/ibmdb/go_ibm_db v0.5.4
 	github.com/invopop/jsonschema v0.13.0
 	github.com/jackc/pgconn v1.14.3
 	github.com/jackc/pgio v1.0.0
@@ -96,7 +98,7 @@ require (
 require (
 	cloud.google.com/go/auth v0.17.0 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.8 // indirect
-	filippo.io/edwards25519 v1.1.0 // indirect
+	filippo.io/edwards25519 v1.1.1 // indirect
 	github.com/andybalholm/brotli v1.2.0 // indirect
 	github.com/go-jose/go-jose/v4 v4.1.3 // indirect
 	github.com/jackc/pgproto3/v2 v2.3.3 // indirect
@@ -117,7 +119,6 @@ require (
 	cloud.google.com/go/longrunning v0.6.7 // indirect
 	cloud.google.com/go/monitoring v1.24.2 // indirect
 	cloud.google.com/go/pubsub/v2 v2.0.0 // indirect
-	cloud.google.com/go/spanner v1.86.1 // indirect
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
 	github.com/99designs/keyring v1.2.2 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/internal v1.11.2 // indirect
@@ -170,7 +171,7 @@ require (
 	github.com/duckdb/duckdb-go-bindings/linux-amd64 v0.1.21 // indirect
 	github.com/duckdb/duckdb-go-bindings/linux-arm64 v0.1.21 // indirect
 	github.com/duckdb/duckdb-go-bindings/windows-amd64 v0.1.21 // indirect
-	github.com/dvsekhvalnov/jose2go v1.6.0 // indirect
+	github.com/dvsekhvalnov/jose2go v1.7.0 // indirect
 	github.com/elastic/elastic-transport-go/v8 v8.6.0 // indirect
 	github.com/envoyproxy/go-control-plane/envoy v1.35.0 // indirect
 	github.com/envoyproxy/protoc-gen-validate v1.2.1 // indirect
@@ -207,7 +208,6 @@ require (
 	github.com/hashicorp/go-retryablehttp v0.7.7 // indirect
 	github.com/hashicorp/go-uuid v1.0.3 // indirect
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
-	github.com/ibmdb/go_ibm_db v0.5.4 // indirect
 	github.com/ibmruntimes/go-recordio/v2 v2.0.0-20240416213906-ae0ad556db70 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
